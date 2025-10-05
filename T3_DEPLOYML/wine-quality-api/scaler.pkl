@@ -1,0 +1,6 @@
+import sys
+path = '/home/romanUrbinajonathanalexander/web2py/C:\Usuarios\Jonatan\Descargas\T3_DEPLOYML\wine-quality-api'
+if path not in sys.path:
+    sys.path.append(path)
+
+from app import app as application
